@@ -51,10 +51,10 @@ class Blockchain{
     }
 }
 
-let sattiCoin = new Blockchain();
-sattiCoin.addBlock(new Block(1, "10/02/2019", { amount: 4}));
-sattiCoin.addBlock(new Block(1, "15/02/2019", { amount: 69}));
+let sattu = new Blockchain();
+sattu.addBlock(new Block(1, "10/02/2019", { amount: 4}));
+sattu.addBlock(new Block(1, "15/02/2019", { amount: 69}));
 
-// console.log(JSON.stringify(sattiCoin, null, 4));
+ console.log(JSON.stringify(sattu, null, 4));
 
-console.log(sattiCoin.isChainValid());
+//console.log(sattu.isChainValid());
