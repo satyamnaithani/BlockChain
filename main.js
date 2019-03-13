@@ -53,7 +53,9 @@ class Blockchain{
 
 let sattu = new Blockchain();
 sattu.addBlock(new Block(1, "10/02/2019", { amount: 4}));
-sattu.addBlock(new Block(1, "15/02/2019", { amount: 69}));
+sattu.addBlock(new Block(2, "15/02/2019", { amount: 69}));
+sattu.addBlock(new Block(3, "14/03/2019", { amount: 25}));
+sattu.addBlock(new Block(4, "14/03/2019", { amount: 27}));
 
  console.log(JSON.stringify(sattu, null, 4));
 
